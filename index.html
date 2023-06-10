@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+	<title>iCrave</title>
+	<link rel="shortcut icon" href="image\logo1.jpg">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header id="header">
+		<div class="logo-section">
+			
+			<a href="index.html">  <img src="image\logo1.jpg" alt="logo" class="logo-sec"></a>
+		</div>
+		<nav id="nav-bar" class="navigation-bar">
+			<ul style="list-style-type: none;" class="navigation">
+					    <li><a href="#icrave" class="nav-link">iCrave</a></li>
+						<li><a href="#story" class="nav-link">Our Story</a></li>
+						<li><a href="#designs" class="nav-link" >Work Log</a></li>
+						<li><a href="#contact" class="nav-link">Contact</a></li>
+					</ul>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<section id="icrave" class="cover-section">
+				<div class="title-text">
+					<h1>iCrave</h1>
+					<p>&prcue; We Decor Your Design &harrw; With Innovative Ideas &prcue;</p>
+				</div>
+				<div class="box-feature">
+					<img src="image\front.jpg" alt="" class="cover-image">
+				</div>
+				
+			</section>
+
+
+
+			<section id="story" class="story-section">
+				<div class="section-text">
+						   <h1>Our Story</h1>
+										 <p>Furnishing your home is quite overwhelming time at least for us. <br> iCrave was born to help others through the maze with mixture of traditional and trendy interior design.<br>Designing is a Creative and interesting way to adorn home. Product among Women. Its the best opportunity and demands full control of inventory due to everyone wants to make their home best.you also have adequate knowledge about designing and its designing process that comes with different Size and Design ideas.</p>
+				 </div>
+				 <div class="box-feature">
+					 <img src="image/story1.jpeg" alt="">
+				 </div>
+			   </section>
+
+
+
+			<section id="designs" class="samples"> 
+				<div class="section-text">
+					<h1>Our Designs</h1>
+					<p>Take a look at some of our featured picks that have made editiorial debute.</p>
+				</div>	
+				<div class="featured">
+					<div class="work">
+						<figure>
+							<img src="image/1.png" alt="">
+							<figcaption>
+								<a href="#">Living Room</a>
+							</figcaption>
+						</figure>
+					</div>	
+					<div class="work">
+						<figure>
+							<img src="image/8.png" alt="">
+							<figcaption>
+								<a href="#">Kitchen</a>
+							</figcaption>
+						</figure>
+					</div>	
+					<div class="work">
+						<figure>
+							<img src="image/3.png" alt="">
+							<figcaption>
+								<a href="#">Working Space</a>
+							</figcaption>
+						</figure>
+					</div>	
+					<div class="work">
+						<figure>
+							<img src="image/7.png" alt="">
+							<figcaption>
+								<a href="#">Closet</a>
+							</figcaption>
+						</figure>
+					</div>	
+					<div class="work">
+						<figure>
+							<img src="image/5.png" alt="">
+							<figcaption>
+								<a href="#">Bed Room</a>
+							</figcaption>
+						</figure>
+					</div>	
+					<div class="work">
+						<figure>
+							<img src="image/6.png" alt="">
+							<figcaption>
+								<a href="#"> Bathroom</a>
+							</figcaption>
+						</figure>
+					</div>	
+				</div>
+				<div class="video-section">
+					<!-- <iframe src= "image\video.mp4" frameborder="7" width="700" height="400" id="video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
+					<video controls width="700" height="400" id="video">
+						<source src="./image/video.mp4" type="video/mp4">
+					</video>
+                <!-- <figcaption>Our Offeres and Design</figcaption> -->
+				</div>
+			</section>
+
+			<section id ="contact"class="contact-section">
+				<div class="section-text">
+					<h2> Recieve our Catalogue</h2>
+					<p class="ml20">We would love to hear from you!<br><br>
+					To Get our monthly catalogue subscribe by filling the following<br> form with your name and email address</p></div>
+					<div class ="contact-info">
+					<div class ="form-box">
+						<form method="POST" id="contactForm" class="contact-form " autocomplete="off">
+							<label for ="name"class="form-entry">
+							<input type="name" id="name" type="text" class="txt-box" placeholder="Enter your name " required><br>
+					  </label>
+					  <label for="email"class="form-entry">
+						  <input name="email" placeholder="Enter email" id="email"type="email"class="txt-box" required><br>
+						</label>
+					  <label for="message"class="form-entry">
+						 <textarea
+						 placeholder="Your Message"
+						 type="textarea"id="message"name="message"class="txt-box" required></textarea><br>
+					</label> <br>
+					  <button onclick="formValidate()" type="submit" id="submit" class="btn">
+						  <fa class="fa fa-paper-plane mr10"></fa> Send
+					  </button>
+					</form>  
+					</div>
+				   </div>
+			</section>
+				</div>
+				</main>
+			
+	<footer class="footer-section">
+		<div class="social-icons">
+			<i class="fa fa-facebook-square"></i>
+			<i class="fa fa-instagram"></i>
+			<i class="fa fa-twitter-square"></i>
+			<i class="fa fa-linkedin-square"></i>
+
+		</div>
+			
+	</footer>
+
+	<section class="errorSection noOpacity" id="error">
+	</section>
+</body>
+<script src="./js/contactValidation.js"></script>
+</html>
